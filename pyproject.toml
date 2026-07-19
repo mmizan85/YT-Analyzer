@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yt-analyzer"
+version = "1.0.0"
+description = "Advanced YouTube Metadata & Community Insights Extraction CLI Engine, built on yt-dlp."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "yt-dlp>=2026.7.1",
+    "click>=8.1.0",
+    "rich>=13.7.0",
+    "questionary>=2.0.0",
+    "pandas>=2.2.0",
+    "openpyxl>=3.1.0",
+]
+
+[project.scripts]
+yt-analyzer = "yt_analyzer.cli_interface:main"
+yta = "yt_analyzer.cli_interface:main"
+
+[tool.setuptools.packages.find]
+include = ["yt_analyzer*"]

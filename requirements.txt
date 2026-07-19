@@ -1,0 +1,11 @@
+# yt-analyzer — runtime dependencies
+# Tested against the versions below (installed and verified in the
+# development sandbox on 2026-07-18). Minimum versions are set where a
+# specific feature is relied upon; otherwise a conservative floor is used.
+
+yt-dlp>=2026.7.1        # core extraction engine — update frequently, YouTube changes often
+click>=8.1.0             # CLI argument parsing
+rich>=13.7.0              # terminal UI: banner, colored status, progress bars, tables
+questionary>=2.0.0        # interactive arrow-key prompts (auto-launched with no CLI flags)
+pandas>=2.2.0             # tabular helpers used alongside openpyxl for --format xlsx
+openpyxl>=3.1.0           # streaming XLSX writer (write_only mode) for --format xlsx
