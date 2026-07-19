@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- You can replace this src with your actual uploaded logo link -->
-<img src="https://img.icons8.com/color/150/000000/youtube-play.png" alt="YT-Analyzer Logo" width="150" height="150">
+<img width="120" alt="YT_Analytica-Photoroom" src="https://github.com/user-attachments/assets/61a731d1-c5b2-450b-ac43-027e7f5e9edc" />
 
 # ⚡ YT-Analyzer (Exylo Analytica)
 
@@ -79,7 +79,7 @@ This project leverages modern Python libraries and build tools to ensure top-tie
 
 | Interactive UI Mode | Live Progress & Extraction |
 | --- | --- |
-|  |  |
+| <img width="500" alt="Interactive UI Mode" src="https://github.com/user-attachments/assets/cbaa0de2-d0bd-47d2-95d9-ef403ce94393" /> |  <img width="500" alt="Live_Progress_ _Extraction" src="https://github.com/user-attachments/assets/207b6e7b-3045-446a-bfb5-6dc5bfc1ba93" /> |
 | *Select fields, formats, and limits via arrow keys.* | *Real-time multi-threaded progress tracking.* |
 
 *(Note: Replace the placeholder image links with actual screenshots uploaded to your repository's `assets` folder.)*
@@ -130,7 +130,7 @@ yt-analyzer -h
 
 For everyday users, we provide a pre-compiled Windows executable via **Inno Setup**.
 
-1. Go to the [Releases](https://www.google.com/search?q=%23) page of this repository.
+1. Go to the [Releases](https://github.com/mmizan85/YT-Analyzer/releases/tag/v1.0.0) page of this repository.
 2. Download the latest `YT_Analyzer_Setup.exe`.
 3. Double-click the installer and follow the on-screen prompts.
 4. The installer automatically adds the tool to your Windows System `PATH`.
